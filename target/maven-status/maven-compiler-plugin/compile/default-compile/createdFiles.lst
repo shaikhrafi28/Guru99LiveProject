@@ -1,0 +1,10 @@
+com\outlook\qa\pages\MailBoxPage.class
+com\outlook\qa\util\extentreports\ExtentTestManager.class
+com\outlook\qa\util\listeners\Retry.class
+com\outlook\qa\util\listeners\WebEventListener.class
+com\outlook\qa\util\listeners\AnnotationTransformer.class
+com\outlook\qa\pages\LoginPage.class
+com\outlook\qa\util\baseutility\TestUtil.class
+com\outlook\qa\util\extentreports\ExtentManager.class
+com\outlook\qa\util\listeners\TestNGTestListener.class
+com\outlook\qa\base\TestBaseSetup.class

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.outlook.qa.util.listeners.TestNGTestListener"/>
+    <listener class-name="com.outlook.qa.util.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test name="Test(failed)" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.outlook.qa.testcases.LoginPage.LoginTest01">
+        <methods>
+          <include name="invalidLoginTest_InvalidPassword"/>
+          <include name="set_up"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-02-21T00:16:53Z" name="Suite" finished-at="2019-02-21T00:17:59Z" duration-ms="66466">
+    <groups>
+    </groups>
+    <test started-at="2019-02-21T00:16:53Z" name="Test" finished-at="2019-02-21T00:17:59Z" duration-ms="66466">
+      <class name="com.outlook.qa.testcases.LoginPage.LoginTest01">
+        <test-method is-config="true" signature="set_up()[pri:0, instance:com.outlook.qa.testcases.LoginPage.LoginTest01@23348b5d]" started-at="2019-02-21T00:16:53Z" name="set_up" finished-at="2019-02-21T00:17:43Z" duration-ms="49689" status="PASS">
+        </test-method>
+        <test-method signature="LoginTest_InvalidPassword()[pri:0, instance:com.outlook.qa.testcases.LoginPage.LoginTest01@23348b5d]" started-at="2019-02-21T00:17:43Z" name="LoginTest_InvalidPassword" description="Invalid Login Scenario with wrong username and password." finished-at="2019-02-21T00:17:59Z" duration-ms="16380" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
